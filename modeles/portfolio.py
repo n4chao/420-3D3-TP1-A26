@@ -8,7 +8,7 @@ class Portfolio(Sujet):
         self._prix = {}
         self._strategie = strategie
 
-    def actualiser_prix(self):
+    def rafraichir_prix(self):
         for ticker in self._titres:
             self._prix[ticker] = self._strategie.recuperer_prix(ticker)
 

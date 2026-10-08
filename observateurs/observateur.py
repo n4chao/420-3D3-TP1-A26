@@ -3,5 +3,5 @@ from abc import ABC, abstractmethod
 class Observateur(ABC):
 
     @abstractmethod
-    def actualiser(self, sujet) -> None:
+    def rafraichir(self, sujet) -> None:
         pass
