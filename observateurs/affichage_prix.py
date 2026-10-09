@@ -9,7 +9,7 @@ class AffichagePrix(Observateur):
         self._frame = tk.LabelFrame(parent, text="Prix en temps réel", padx=10, pady=10)
         self._frame.pack(fill=tk.X, padx=10, pady=5)
 
-    def rafraichir(self, sujet):
+    def actualiser(self, sujet):
         donnees = sujet.get_donnees()
         for ticker in donnees:
             self._afficher_prix(

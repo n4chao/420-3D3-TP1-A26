@@ -1,5 +1,3 @@
-from modeles.portfolio import Portfolio
-
 class Retirer:
 
     def retirer(self, portfolio, ticker):

@@ -1,5 +1,5 @@
 import tkinter as tk
-from observers.observer import Observateur
+from observateurs.observateur import Observateur
 
 class AffichagePortfolio(Observateur):
 

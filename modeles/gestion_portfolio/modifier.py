@@ -1,5 +1,3 @@
-from modeles.portfolio import Portfolio
-
 class Modifier:
 
     def modifier(self, portfolio, ticker, quantite=None,
@@ -18,4 +16,3 @@ class Modifier:
 
         if seuil_haut is not None:
             titre.seuil_haut = seuil_haut
-

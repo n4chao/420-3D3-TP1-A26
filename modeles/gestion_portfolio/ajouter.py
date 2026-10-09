@@ -1,5 +1,3 @@
-from modeles.portfolio import Portfolio
-
 class Ajouter:
 
     def ajouter(self, portfolio, titre):
